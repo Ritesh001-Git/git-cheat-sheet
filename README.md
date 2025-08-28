@@ -11,4 +11,13 @@ Use your platform’s installer or package manager. The original cheat sheet ref
 
 ---
 
+## 2) Setup (Global Identity & UI)
+
+```bash
+git config --global user.name "[firstname lastname]"
+git config --global user.email "[valid-email]"
+git config --global color.ui auto
+
+'''
+
 
