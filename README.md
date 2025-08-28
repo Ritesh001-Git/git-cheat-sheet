@@ -2,7 +2,7 @@
 
 This README collects the most common Git commands with short, practical explanations so you can copy & paste them directly. It is adapted from the GitHub Education **GIT CHEAT SHEET**.
 
-# 1) Installation (Pointers)
+## 1) Installation (Pointers)
 Use your platform’s installer or package manager. The original cheat sheet references:
 - Git for all platforms: git-scm.com
 - GitHub Desktop for Windows/Mac
@@ -17,7 +17,14 @@ Use your platform’s installer or package manager. The original cheat sheet ref
 git config --global user.name "[firstname lastname]"
 git config --global user.email "[valid-email]"
 git config --global color.ui auto
+```
 
-'''
+---
 
+## 3) Initialize or Clone a Repository
+
+```bash
+git init
+git clone [url]
+```
 
