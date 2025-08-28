@@ -28,3 +28,15 @@ git init
 git clone [url]
 ```
 
+## 4)Stage & Snapshot (Working Directory ↔ Staging Area ↔ Commit)
+
+```bash
+git status
+git add .
+git add [file]
+git reset [file]
+git diff
+git diff --staged
+git commit -m "[descriptive message]"
+```
+
