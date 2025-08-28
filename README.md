@@ -3,7 +3,7 @@
 This README collects the most common Git commands with short, practical explanations so you can copy & paste them directly. It is adapted from the GitHub Education **GIT CHEAT SHEET**.
 
 ## 1) Installation (Pointers)
-Use your platform’s installer or package manager. The original cheat sheet references:
+Use your platform’s installer or package manager.
 - Git for all platforms: git-scm.com
 - GitHub Desktop for Windows/Mac
 
