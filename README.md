@@ -40,3 +40,12 @@ git diff --staged
 git commit -m "[descriptive message]"
 ```
 
+## 5) Branch & Merge (Isolate Work and Integrate)
+
+```bash
+git branch
+git branch [branch-name]
+git checkout [branch-name]
+git merge [branch]
+git log
+```
