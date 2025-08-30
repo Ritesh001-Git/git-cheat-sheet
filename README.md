@@ -62,3 +62,19 @@ git log
 - git checkout [name] switches your working directory to that branch.
 - git merge [branch] merges the named branch into the current one.
 - git log shows the commit history of the current branch.
+
+## 6) Share & Update (Remotes)
+
+
+```bash
+git remote add [alias] [url]
+git fetch [alias]
+git merge [alias]/[branch]
+git push [alias] [branch]
+git pull
+```
+- git remote add names a remote (e.g., origin) for a URL.
+- git fetch downloads branches/commits from that remote.
+-  merge [alias]/[branch] brings a remote branch into your current branch.
+- git push uploads your local commits to the remote branch.
+- git pull = fetch + merge from the tracking branch.
