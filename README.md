@@ -90,3 +90,10 @@ git log --stat -M
 - git log --stat -M shows commit logs and indicates moved/renamed paths.
 
 ## 8) Rewrite History
+
+```bash
+git rebase [branch]
+git reset --hard [commit]
+```
+- git rebase replays current branch commits on top of the specified branch (linear history).
+- git reset --hard moves HEAD and resets both index and working tree to the given commit (discarding local changes).
