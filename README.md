@@ -97,3 +97,18 @@ git reset --hard [commit]
 ```
 - git rebase replays current branch commits on top of the specified branch (linear history).
 - git reset --hard moves HEAD and resets both index and working tree to the given commit (discarding local changes).
+
+## 8) Inspect & Compare
+
+```bash
+git log
+git log branchB..branchA
+git log --follow [file]
+git diff branchB...branchA
+git show [SHA]
+```
+- git log shows commit history.
+- git log branchB..branchA shows commits in branchA not in branchB.
+- git log --follow [file] traces a file’s history across renames.
+- git diff branchB...branchA shows what’s in branchA that isn’t in branchB.
+- git show [SHA] displays an object (commit, tag, tree, blob) in readable form.
