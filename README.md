@@ -112,3 +112,19 @@ git show [SHA]
 - git log --follow [file] traces a file’s history across renames.
 - git diff branchB...branchA shows what’s in branchA that isn’t in branchB.
 - git show [SHA] displays an object (commit, tag, tree, blob) in readable form.
+
+## 9) Ignoring Files
+
+Global ignore file:
+``` bash
+git config --global core.excludesfile [file]
+```
+
+Repository-local ignore patterns (create a .gitignore):
+``` bash
+logs/
+*.notes
+.env/
+```
+- Set a global ignore file for patterns you always want ignored.
+- Use a repository .gitignore to keep temporary/build files out of commits. 
