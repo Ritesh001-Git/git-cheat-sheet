@@ -31,6 +31,8 @@ git config --global credential.helper "cache --timeout=3600"
 - Set your default merge tool
 - Set your default push behaviour
 - Set your default pull behaviour
+- Set your default branch name
+- Set your default credential helper
 ---
 
 ## 3) Initialize or Clone a Repository
