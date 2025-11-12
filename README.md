@@ -27,7 +27,9 @@ git config --global credential.helper "cache --timeout=3600"
 - Set your global author name
 - Set the email associated with your user account
 - Enable colored CLI output. These values tag your commits and make CLI output easier to read.
-- 
+- Set your default editor
+- Set your default merge tool
+- Set your default push behaviour
 ---
 
 ## 3) Initialize or Clone a Repository
