@@ -22,6 +22,7 @@ git config --global merge.tool "vimdiff"
 git config --global push.default "simple"
 git config --global pull.rebase "true"
 git config --global init.defaultBranch "main"
+git config --global credential.helper "cache --timeout=3600"
 ```
 - Set your global author name and email, and enable colored CLI output. These values tag your commits and make CLI output easier to read.
 ---
