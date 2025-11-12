@@ -18,6 +18,7 @@ git config --global user.name "[firstname lastname]"
 git config --global user.email "[valid-email]"
 git config --global color.ui auto
 git config --global core.editor "vim"
+git config --global merge.tool "vimdiff"
 ```
 - Set your global author name and email, and enable colored CLI output. These values tag your commits and make CLI output easier to read.
 ---
