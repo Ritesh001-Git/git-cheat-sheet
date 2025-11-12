@@ -24,7 +24,10 @@ git config --global pull.rebase "true"
 git config --global init.defaultBranch "main"
 git config --global credential.helper "cache --timeout=3600"
 ```
-- Set your global author name and email, and enable colored CLI output. These values tag your commits and make CLI output easier to read.
+- Set your global author name
+- Set the email associated with your user account
+- Enable colored CLI output. These values tag your commits and make CLI output easier to read.
+- 
 ---
 
 ## 3) Initialize or Clone a Repository
