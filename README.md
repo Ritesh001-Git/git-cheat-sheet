@@ -95,7 +95,8 @@ git reset --hard <commit-hash> && git push -f origin <branch-name>
 ## 3) Synchronize
 
 ```bash
-git init
+git fetch
+git pull
 git clone [url]
 ```
 - git init turns the current folder into a new Git repository.
