@@ -64,6 +64,7 @@ git log --author="[author name]"
 - To show all staged and unstaged file changes
 - To show the changes between two commit ids
 - To list the change dates and authors for a file
+- To show the file changes for a commit id and/or file
 ## 4)Stage & Snapshot (Working Directory ↔ Staging Area ↔ Commit)
 
 ```bash
