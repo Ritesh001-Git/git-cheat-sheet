@@ -84,6 +84,8 @@ git reset --hard <commit-hash> && git push -f origin <branch-name>
 ```
 - To stage the file, ready for commit
 - To stage all changed files, ready for commit
+- To commit all staged files to the versioned history
+- To commit all your tracked files to the versioned history
 
 ## 5) Branch & Merge (Isolate Work and Integrate)
 
