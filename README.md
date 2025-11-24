@@ -106,6 +106,8 @@ git push origin branch_name
 git branch -m new_name
 git checkout branch_b git merge branch_a
 git merge --abort
+git tag my_tag
+git reset --hard origin/<remote_branch_name>
 ```
 - To list all local branches
 - To list remote and local branches
@@ -117,6 +119,9 @@ git merge --abort
 - To push a branch to remote
 - To rename a current branch
 - To merge branch _a into branch_b
+- To abort the current merge
+- To tag the current commit
+- To discard all local commits and changes
 
 ## 6) Share & Update (Remotes)
 
