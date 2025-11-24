@@ -52,6 +52,7 @@ git diff
 git diff --cached
 git diff HEAD
 git diff commit1 commit2
+git blame [file]
 ```
 ## 4)Stage & Snapshot (Working Directory ↔ Staging Area ↔ Commit)
 
