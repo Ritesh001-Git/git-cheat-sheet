@@ -96,12 +96,16 @@ git reset --hard <commit-hash> && git push -f origin <branch-name>
 
 ```bash
 git branch
+git branch -a
+git checkout branch_name
+git checkout -
 git branch [branch-name]
 git checkout [branch-name]
 git merge [branch]
 git log
 ```
-- git branch lists branches (the current branch has a *).
+- To list all local branches
+- To list remote and local branches
 - git branch [name] creates a new branch at the current commit.
 - git checkout [name] switches your working directory to that branch.
 - git merge [branch] merges the named branch into the current one.
