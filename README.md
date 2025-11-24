@@ -90,6 +90,7 @@ git reset --hard <commit-hash> && git push -f origin <branch-name>
 - To unstaged the file, keeping the file changes
 - To revert everything to the last commit
 - To overwrite commit history with your local history (force push)
+- To reset remote branch to specific commit (danger: use only if not distributed to other people before)
 
 ## 5) Branch & Merge (Isolate Work and Integrate)
 
