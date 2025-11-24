@@ -61,6 +61,8 @@ git log --author="[author name]"
 - To list new or modified files not yet committed
 - To show the changes to files not yet staged
 - To show the changes to staged files
+- To show all staged and unstaged file changes
+- To show the changes between two commit ids
 ## 4)Stage & Snapshot (Working Directory ↔ Staging Area ↔ Commit)
 
 ```bash
