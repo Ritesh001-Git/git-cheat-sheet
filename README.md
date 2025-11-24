@@ -48,7 +48,7 @@ git clone [url]
 
 ```bash
 git status
-
+git diff
 ```
 ## 4)Stage & Snapshot (Working Directory ↔ Staging Area ↔ Commit)
 
