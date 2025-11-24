@@ -102,6 +102,8 @@ git checkout -
 git branch [branch-name]
 git checkout -b branch_name
 git branch -d my_branch
+git push origin branch_name
+git branch -m new_name
 git merge [branch]
 git log
 ```
