@@ -44,6 +44,7 @@ git clone [url]
 - git init turns the current folder into a new Git repository.
 - git clone copies an existing remote repository onto your machine.
 
+## 4)Observe your Repository
 ## 4)Stage & Snapshot (Working Directory ↔ Staging Area ↔ Commit)
 
 ```bash
