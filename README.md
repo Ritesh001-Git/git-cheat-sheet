@@ -92,7 +92,7 @@ git reset --hard <commit-hash> && git push -f origin <branch-name>
 - To overwrite commit history with your local history (force push)
 - To reset remote branch to specific commit (danger: use only if not distributed to other people before)
 
-## 3) Synchronize
+## 6) Synchronize
 
 ```bash
 git fetch
@@ -103,8 +103,9 @@ git push
 - To get the latest changes from the origin (no merge)
 - To fetch the latest changes from the origin and merge
 - To fetch the latest changes from the origin and rebase
+- To push local changes to the origin
 
-## 6) Branch & Merge (Isolate Work and Integrate)
+## 7) Branch & Merge (Isolate Work and Integrate)
 
 ```bash
 git branch
