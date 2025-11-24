@@ -58,6 +58,9 @@ git log
 git log -p [file/directory]
 git log --author="[author name]"
 ```
+- To list new or modified files not yet committed
+- To show the changes to files not yet staged
+- To show the changes to staged files
 ## 4)Stage & Snapshot (Working Directory ↔ Staging Area ↔ Commit)
 
 ```bash
