@@ -114,6 +114,9 @@ git merge --abort
 - To create a new branch called the new branch
 - To create a local branch and switch to it
 - To delete the branch called my_branch
+- To push a branch to remote
+- To rename a current branch
+- To merge branch _a into branch_b
 
 ## 6) Share & Update (Remotes)
 
