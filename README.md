@@ -54,6 +54,7 @@ git diff HEAD
 git diff commit1 commit2
 git blame [file]
 git show [commit]: [file]
+git log
 ```
 ## 4)Stage & Snapshot (Working Directory ↔ Staging Area ↔ Commit)
 
