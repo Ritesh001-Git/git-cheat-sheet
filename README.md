@@ -56,6 +56,7 @@ git blame [file]
 git show [commit]: [file]
 git log
 git log -p [file/directory]
+git log --author="[author name]"
 ```
 ## 4)Stage & Snapshot (Working Directory ↔ Staging Area ↔ Commit)
 
