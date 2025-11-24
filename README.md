@@ -50,6 +50,7 @@ git clone [url]
 git status
 git diff
 git diff --cached
+git diff HEAD
 ```
 ## 4)Stage & Snapshot (Working Directory ↔ Staging Area ↔ Commit)
 
