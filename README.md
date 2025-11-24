@@ -97,7 +97,8 @@ git reset --hard <commit-hash> && git push -f origin <branch-name>
 ```bash
 git fetch
 git pull
-git clone [url]
+git pull --rebase
+git push
 ```
 - git init turns the current folder into a new Git repository.
 - git clone copies an existing remote repository onto your machine.
