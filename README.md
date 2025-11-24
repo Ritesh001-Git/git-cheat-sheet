@@ -92,7 +92,7 @@ git reset --hard <commit-hash> && git push -f origin <branch-name>
 - To overwrite commit history with your local history (force push)
 - To reset remote branch to specific commit (danger: use only if not distributed to other people before)
 
-## 5) Branch & Merge (Isolate Work and Integrate)
+## 6) Branch & Merge (Isolate Work and Integrate)
 
 ```bash
 git branch
@@ -100,7 +100,8 @@ git branch -a
 git checkout branch_name
 git checkout -
 git branch [branch-name]
-git checkout [branch-name]
+git checkout -b branch_name
+git branch -d my_branch
 git merge [branch]
 git log
 ```
@@ -108,7 +109,9 @@ git log
 - To list remote and local branches
 - To switch to an existing branch, branch_name, and update the working directory
 - To switch to the last used branch
-- 
+- To create a new branch called the new branch
+- To create a local branch and switch to it
+- To delete the branch called my_branch
 
 ## 6) Share & Update (Remotes)
 
