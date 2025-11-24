@@ -102,6 +102,7 @@ git push
 ```
 - To get the latest changes from the origin (no merge)
 - To fetch the latest changes from the origin and merge
+- To fetch the latest changes from the origin and rebase
 
 ## 6) Branch & Merge (Isolate Work and Integrate)
 
