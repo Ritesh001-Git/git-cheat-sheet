@@ -45,6 +45,11 @@ git clone [url]
 - git clone copies an existing remote repository onto your machine.
 
 ## 4)Observe your Repository
+
+```bash
+git status
+
+```
 ## 4)Stage & Snapshot (Working Directory ↔ Staging Area ↔ Commit)
 
 ```bash
