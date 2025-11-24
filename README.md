@@ -78,6 +78,8 @@ git commit -m "commit message"
 git commit -am "commit message"
 git update-index --chmod=+x foo.sh
 git reset [file]
+git reset --hard
+git push --force
 ```
 - git status shows what’s modified/staged.
 - git add stages file(s) for the next commit.
