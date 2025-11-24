@@ -92,6 +92,15 @@ git reset --hard <commit-hash> && git push -f origin <branch-name>
 - To overwrite commit history with your local history (force push)
 - To reset remote branch to specific commit (danger: use only if not distributed to other people before)
 
+## 3) Synchronize
+
+```bash
+git init
+git clone [url]
+```
+- git init turns the current folder into a new Git repository.
+- git clone copies an existing remote repository onto your machine.
+
 ## 6) Branch & Merge (Isolate Work and Integrate)
 
 ```bash
