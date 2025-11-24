@@ -74,6 +74,8 @@ git log --author="[author name]"
 ```bash
 git add [file]
 git add .
+git commit -m "commit message"
+git commit -am "commit message"
 ```
 - git status shows what’s modified/staged.
 - git add stages file(s) for the next commit.
