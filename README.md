@@ -69,16 +69,11 @@ git log --author="[author name]"
 - To show the change history for file/directory including diffs
 - To show the change history for a specific author
 
-## 4)Stage & Snapshot (Working Directory ↔ Staging Area ↔ Commit)
+## 5)Stage & Snapshot (Working Directory ↔ Staging Area ↔ Commit)
 
 ```bash
-git status
-git add .
 git add [file]
-git reset [file]
-git diff
-git diff --staged
-git commit -m "[descriptive message]"
+git add .
 ```
 - git status shows what’s modified/staged.
 - git add stages file(s) for the next commit.
