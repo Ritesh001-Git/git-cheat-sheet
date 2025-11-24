@@ -80,13 +80,10 @@ git update-index --chmod=+x foo.sh
 git reset [file]
 git reset --hard
 git push --force
+git reset --hard <commit-hash> && git push -f origin <branch-name>
 ```
-- git status shows what’s modified/staged.
-- git add stages file(s) for the next commit.
-- git reset [file] unstages (keeps your changes in the working directory).
-- git diff shows unstaged changes.
-- git diff --staged shows staged-but-uncommitted changes.
-- git commit -m creates a new snapshot of staged changes.
+- To stage the file, ready for commit
+- To stage all changed files, ready for commit
 
 ## 5) Branch & Merge (Isolate Work and Integrate)
 
