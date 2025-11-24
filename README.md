@@ -104,8 +104,8 @@ git checkout -b branch_name
 git branch -d my_branch
 git push origin branch_name
 git branch -m new_name
-git merge [branch]
-git log
+git checkout branch_b git merge branch_a
+git merge --abort
 ```
 - To list all local branches
 - To list remote and local branches
