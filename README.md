@@ -106,10 +106,9 @@ git log
 ```
 - To list all local branches
 - To list remote and local branches
-- git branch [name] creates a new branch at the current commit.
-- git checkout [name] switches your working directory to that branch.
-- git merge [branch] merges the named branch into the current one.
-- git log shows the commit history of the current branch.
+- To switch to an existing branch, branch_name, and update the working directory
+- To switch to the last used branch
+- 
 
 ## 6) Share & Update (Remotes)
 
