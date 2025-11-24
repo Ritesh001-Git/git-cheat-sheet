@@ -100,8 +100,8 @@ git pull
 git pull --rebase
 git push
 ```
-- git init turns the current folder into a new Git repository.
-- git clone copies an existing remote repository onto your machine.
+- To get the latest changes from the origin (no merge)
+- 
 
 ## 6) Branch & Merge (Isolate Work and Integrate)
 
