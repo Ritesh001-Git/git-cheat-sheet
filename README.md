@@ -53,12 +53,14 @@ git config --global credential.helper "cache --timeout=3600"
 
 ## 3) Initialize or Clone a Repository
 
+- git init turns the current folder into a new Git repository.
 ```bash
 git init
+```
+- git clone copies an existing remote repository onto your machine.
+```bash
 git clone [url]
 ```
-- git init turns the current folder into a new Git repository.
-- git clone copies an existing remote repository onto your machine.
 
 ## 4)Observe your Repository
 
