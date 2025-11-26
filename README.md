@@ -104,16 +104,6 @@ git log -p [file/directory]
 ```bash
 git log --author="[author name]"
 ```
-- To list new or modified files not yet committed
-- To show the changes to files not yet staged
-- To show the changes to staged files
-- To show all staged and unstaged file changes
-- To show the changes between two commit ids
-- To list the change dates and authors for a file
-- To show the file changes for a commit id and/or file
-- To show full change history
-- To show the change history for file/directory including diffs
-- To show the change history for a specific author
 
 ## 5)Stage & Snapshot (Working Directory ↔ Staging Area ↔ Commit)
 
