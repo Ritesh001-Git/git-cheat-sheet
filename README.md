@@ -13,15 +13,40 @@ Use your platform’s installer or package manager.
 
 ## 2) Setup (Global Identity & UI)
 
+- Set your global author name
 ```bash
 git config --global user.name "[firstname lastname]"
+```
+- Set the email associated with your user account
+```bash
 git config --global user.email "[valid-email]"
+```
+- Enable colored CLI output. These values tag your commits and make CLI output easier to read.
+```bash
 git config --global color.ui auto
+```
+- Set your default editor
+```bash
 git config --global core.editor "vim"
+```
+- Set your default merge tool
+```bash
 git config --global merge.tool "vimdiff"
+```
+- Set your default push behaviour
+```bash
 git config --global push.default "simple"
+```
+- Set your default push behaviour
+```bash
 git config --global pull.rebase "true"
+```
+- Set your default branch name
+```bash
 git config --global init.defaultBranch "main"
+```
+- Set your default credential helper
+```bash
 git config --global credential.helper "cache --timeout=3600"
 ```
 - Set your global author name
