@@ -131,12 +131,15 @@ git update-index --chmod=+x foo.sh
 ```bash
 git reset [file]
 ```
+- To revert everything to the last commit
 ```bash
 git reset --hard
 ```
+- To overwrite commit history with your local history (force push)
 ```bash
 git push --force
 ```
+- To reset remote branch to specific commit (danger: use only if not distributed to other people before)
 ```bash
 git reset --hard <commit-hash> && git push -f origin <branch-name>
 ```
