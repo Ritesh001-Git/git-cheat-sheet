@@ -148,7 +148,9 @@ git reset --hard <commit-hash> && git push -f origin <branch-name>
 
 ```bash
 git fetch
+```bash
 git pull
+```bash
 git pull --rebase
 git push
 ```
