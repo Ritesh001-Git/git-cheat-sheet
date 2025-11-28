@@ -205,12 +205,15 @@ git branch -m new_name
 ```bash
 git checkout branch_b git merge branch_a
 ```
+- To abort the current merge
 ```bash
 git merge --abort
 ```
+- To tag the current commit
 ```bash
 git tag my_tag
 ```
+- To discard all local commits and changes
 ```bash
 git reset --hard origin/<remote_branch_name>
 ```
