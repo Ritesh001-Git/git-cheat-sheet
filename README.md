@@ -177,12 +177,15 @@ git branch -a
 ```bash
 git checkout branch_name
 ```
+- To switch to the last used branch
 ```bash
 git checkout -
 ```
+- To create a new branch called the new branch
 ```bash
 git branch [branch-name]
 ```
+- To create a local branch and switch to it
 ```bash
 git checkout -b branch_name
 ```
