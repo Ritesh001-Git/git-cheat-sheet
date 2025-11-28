@@ -111,16 +111,16 @@ git log --author="[author name]"
 git add [file]
 ```
 ```bash
-
 git add .
 ```bash
-
 git commit -m "commit message"
 ```bash
-
 git commit -am "commit message"
+```bash
 git update-index --chmod=+x foo.sh
+```bash
 git reset [file]
+```bash
 git reset --hard
 git push --force
 git reset --hard <commit-hash> && git push -f origin <branch-name>
