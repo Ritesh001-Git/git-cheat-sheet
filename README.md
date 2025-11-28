@@ -14,31 +14,31 @@ Use your platform’s installer or package manager.
 ## 2) Setup (Global Identity & UI)
 
 ```bash
-1. Set your global author name → git config --global user.name "[firstname lastname]"
+1. Set your global author name ☛ git config --global user.name "[firstname lastname]"
 ```
 ```bash
-2. Set the email associated with your user account → git config --global user.email "[valid-email]"
+2. Set the email associated with your user account ☛ git config --global user.email "[valid-email]"
 ```
 ```bash
-3. Enable colored CLI output. These values tag your commits and make CLI output easier to read → git config --global color.ui auto
+3. Enable colored CLI output. These values tag your commits and make CLI output easier to read ☛ git config --global color.ui auto
 ```
 ```bash
-4. Set your default editor git → config --global core.editor "vim"
+4. Set your default editor git ☛ config --global core.editor "vim"
 ```
 ```bash
-5. Set your default merge tool → git config --global merge.tool "vimdiff"
+5. Set your default merge tool ☛ git config --global merge.tool "vimdiff"
 ```
 ```bash
-6. Set your default push behaviour → git config --global push.default "simple"
+6. Set your default push behaviour ☛ git config --global push.default "simple"
 ```
 ```bash
-7. Set your default push behaviour → git config --global pull.rebase "true"
+7. Set your default push behaviour ☛ git config --global pull.rebase "true"
 ```
 ```bash
-8. Set your default branch name → git config --global init.defaultBranch "main"
+8. Set your default branch name ☛ git config --global init.defaultBranch "main"
 ```
 ```bash
-9. Set your default credential helper → git config --global credential.helper "cache --timeout=3600"
+9. Set your default credential helper ☛ git config --global credential.helper "cache --timeout=3600"
 ```
 ---
 
