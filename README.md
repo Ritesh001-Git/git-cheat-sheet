@@ -45,7 +45,7 @@ Use your platform’s installer or package manager.
 ## 3) Initialize or Clone a Repository
 
 ```bash
-1. git init turns the current folder into a new ☛ Git repository git init
+1. git init turns the current folder into a new ☛ git init
 ```
 ```bash
 2. git clone copies an existing remote repository onto your machine ☛ git clone [url]
