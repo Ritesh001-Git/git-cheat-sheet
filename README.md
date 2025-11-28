@@ -107,12 +107,15 @@ git log --author="[author name]"
 
 ## 5)Stage & Snapshot (Working Directory ↔ Staging Area ↔ Commit)
 
+- To stage the file, ready for commit
 ```bash
 git add [file]
 ```
+- To stage all changed files, ready for commit
 ```bash
 git add .
 ```
+- To commit all staged files to the versioned history
 ```bash
 git commit -m "commit message"
 ```
