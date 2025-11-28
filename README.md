@@ -112,10 +112,13 @@ git add [file]
 ```
 ```bash
 git add .
+```
 ```bash
 git commit -m "commit message"
+```
 ```bash
 git commit -am "commit message"
+```
 ```bash
 git update-index --chmod=+x foo.sh
 ```bash
