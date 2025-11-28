@@ -162,10 +162,6 @@ git pull --rebase
 ```bash
 git push
 ```
-- To get the latest changes from the origin (no merge)
-- To fetch the latest changes from the origin and merge
-- To fetch the latest changes from the origin and rebase
-- To push local changes to the origin
 
 ## 7) Branch & Merge (Isolate Work and Integrate)
 
