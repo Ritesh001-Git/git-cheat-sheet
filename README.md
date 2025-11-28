@@ -154,9 +154,11 @@ git fetch
 ```bash
 git pull
 ```
+- To fetch the latest changes from the origin and rebase
 ```bash
 git pull --rebase
 ```
+- To push local changes to the origin
 ```bash
 git push
 ```
