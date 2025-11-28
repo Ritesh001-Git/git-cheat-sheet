@@ -177,12 +177,16 @@ git checkout -
 git branch [branch-name]
 ```bash
 git checkout -b branch_name
+```
 ```bash
 git branch -d my_branch
+```
 ```bash
 git push origin branch_name
+```
 ```bash
 git branch -m new_name
+```
 ```bash
 git checkout branch_b git merge branch_a
 ```
