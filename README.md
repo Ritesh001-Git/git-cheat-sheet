@@ -217,11 +217,6 @@ git tag my_tag
 ```bash
 git reset --hard origin/<remote_branch_name>
 ```
-- To list all local branches
-- To list remote and local branches
-- To switch to an existing branch, branch_name, and update the working directory
-- To switch to the last used branch
-- To create a new branch called the new branch
 - To create a local branch and switch to it
 - To delete the branch called my_branch
 - To push a branch to remote
