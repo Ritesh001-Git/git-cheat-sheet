@@ -109,8 +109,15 @@ git log --author="[author name]"
 
 ```bash
 git add [file]
+```
+```bash
+
 git add .
+```bash
+
 git commit -m "commit message"
+```bash
+
 git commit -am "commit message"
 git update-index --chmod=+x foo.sh
 git reset [file]
