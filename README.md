@@ -185,10 +185,13 @@ git push origin branch_name
 git branch -m new_name
 ```bash
 git checkout branch_b git merge branch_a
+```
 ```bash
 git merge --abort
+```
 ```bash
 git tag my_tag
+```
 ```bash
 git reset --hard origin/<remote_branch_name>
 ```
