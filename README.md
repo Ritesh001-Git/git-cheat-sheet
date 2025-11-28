@@ -146,9 +146,11 @@ git reset --hard <commit-hash> && git push -f origin <branch-name>
 
 ## 6) Synchronize
 
+- To get the latest changes from the origin (no merge)
 ```bash
 git fetch
 ```
+- To fetch the latest changes from the origin and merge
 ```bash
 git pull
 ```
