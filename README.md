@@ -217,10 +217,6 @@ git tag my_tag
 ```bash
 git reset --hard origin/<remote_branch_name>
 ```
-- To merge branch _a into branch_b
-- To abort the current merge
-- To tag the current commit
-- To discard all local commits and changes
 
 ## 6) Share & Update (Remotes)
 
