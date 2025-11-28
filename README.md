@@ -189,15 +189,19 @@ git branch [branch-name]
 ```bash
 git checkout -b branch_name
 ```
+- To delete the branch called my_branch
 ```bash
 git branch -d my_branch
 ```
+- To push a branch to remote
 ```bash
 git push origin branch_name
 ```
+- To rename a current branch
 ```bash
 git branch -m new_name
 ```
+- To merge branch _a into branch_b
 ```bash
 git checkout branch_b git merge branch_a
 ```
