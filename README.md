@@ -54,34 +54,34 @@ Use your platform’s installer or package manager.
 ## 4)Observe your Repository
 
 ```bash
-1. To list new or modified files not yet committed git status
+1. To list new or modified files not yet committed ☛ git status
 ```
 ```bash
-2. To show the changes to files not yet staged git diff
+2. To show the changes to files not yet staged ☛ git diff
 ```
 ```bash
-3. To show the changes to staged files git diff --cached
+3. To show the changes to staged files ☛ git diff --cached
 ```
 ```bash
-4. To show all staged and unstaged file changes git diff HEAD
+4. To show all staged and unstaged file changes ☛ git diff HEAD
 ```
 ```bash
-5. To show the changes between two commit ids git diff commit1 commit2
+5. To show the changes between two commit ids ☛ git diff commit1 commit2
 ```
 ```bash
-6. To list the change dates and authors for a file git blame [file]
+6. To list the change dates and authors for a file ☛ git blame [file]
 ```
 ```bash
-7. To show the file changes for a commit id and/or file git show [commit]: [file]
+7. To show the file changes for a commit id and/or file ☛ git show [commit]: [file]
 ```
 ```bash
-8. To show full change history git log
+8. To show full change history ☛ git log
 ```
 ```bash
-9. To show the change history for file/directory including diffs git log -p [file/directory]
+9. To show the change history for file/directory including diffs ☛ git log -p [file/directory]
 ```
 ```bash
-10. To show the change history for a specific author git log --author="[author name]"
+10. To show the change history for a specific author ☛ git log --author="[author name]"
 ```
 
 ## 5)Stage & Snapshot (Working Directory ↔ Staging Area ↔ Commit)
