@@ -119,12 +119,15 @@ git add .
 ```bash
 git commit -m "commit message"
 ```
+- To commit all your tracked files to the versioned history
 ```bash
 git commit -am "commit message"
 ```
+- To set the executable flag to a file foo.sh
 ```bash
 git update-index --chmod=+x foo.sh
 ```
+- To unstaged the file, keeping the file changes
 ```bash
 git reset [file]
 ```
