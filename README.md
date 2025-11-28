@@ -152,6 +152,7 @@ git fetch
 git pull
 ```bash
 git pull --rebase
+```bash
 git push
 ```
 - To get the latest changes from the origin (no merge)
