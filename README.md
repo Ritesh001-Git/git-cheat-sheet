@@ -121,10 +121,13 @@ git commit -am "commit message"
 ```
 ```bash
 git update-index --chmod=+x foo.sh
+```
 ```bash
 git reset [file]
+```
 ```bash
 git reset --hard
+```
 ```bash
 git push --force
 ```bash
