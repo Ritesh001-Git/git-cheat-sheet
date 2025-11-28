@@ -122,7 +122,9 @@ git update-index --chmod=+x foo.sh
 git reset [file]
 ```bash
 git reset --hard
+```bash
 git push --force
+```bash
 git reset --hard <commit-hash> && git push -f origin <branch-name>
 ```
 - To stage the file, ready for commit
