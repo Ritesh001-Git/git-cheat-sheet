@@ -167,8 +167,11 @@ git push
 
 ```bash
 git branch
+```bash
 git branch -a
+```bash
 git checkout branch_name
+```bash
 git checkout -
 git branch [branch-name]
 git checkout -b branch_name
