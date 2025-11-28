@@ -165,12 +165,15 @@ git push
 
 ## 7) Branch & Merge (Isolate Work and Integrate)
 
+- To list all local branches
 ```bash
 git branch
 ```
+- To list remote and local branches
 ```bash
 git branch -a
 ```
+- To switch to an existing branch, branch_name, and update the working directory
 ```bash
 git checkout branch_name
 ```
