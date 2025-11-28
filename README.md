@@ -143,9 +143,6 @@ git push --force
 ```bash
 git reset --hard <commit-hash> && git push -f origin <branch-name>
 ```
-- To commit all your tracked files to the versioned history
-- To set the executable flag to a file foo.sh
-- To unstaged the file, keeping the file changes
 - To revert everything to the last commit
 - To overwrite commit history with your local history (force push)
 - To reset remote branch to specific commit (danger: use only if not distributed to other people before)
