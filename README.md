@@ -133,23 +133,23 @@ Use your platform’s installer or package manager.
 
 - To list all local branches
 ```bash
-git branch
+1. To list all local branches git branch
 ```
 - To list remote and local branches
 ```bash
-git branch -a
+2. To list remote and local branches git branch -a
 ```
 - To switch to an existing branch, branch_name, and update the working directory
 ```bash
-git checkout branch_name
+3. To switch to an existing branch, branch_name, and update the working directory git checkout branch_name
 ```
 - To switch to the last used branch
 ```bash
-git checkout -
+4. To switch to the last used branch git checkout -
 ```
 - To create a new branch called the new branch
 ```bash
-git branch [branch-name]
+5. To create a new branch called the new branch git branch [branch-name]
 ```
 - To create a local branch and switch to it
 ```bash
