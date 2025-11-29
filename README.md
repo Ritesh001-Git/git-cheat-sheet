@@ -175,9 +175,17 @@ Use your platform’s installer or package manager.
 
 ```bash
 1. git remote add names a remote (e.g., origin) for a URL. git remote add names a remote (e.g., origin) for a URL.git remote add [alias] [url]
+```
+```bash
 2. git fetch downloads branches/commits from that remote. git fetch [alias]
+```
+```bash
 3. merge [alias]/[branch] brings a remote branch into your current branch. git merge [alias]/[branch]
+```
+```bash
 4. git push uploads your local commits to the remote branch. git push [alias] [branch]
+```
+```bash
 5. git pull = fetch + merge from the tracking branch. git pull
 ```
 
