@@ -152,27 +152,21 @@ Use your platform’s installer or package manager.
 ```bash
 7. To delete the branch called my_branch git branch -d my_branch
 ```
-- To push a branch to remote
 ```bash
 8, To push a branch to remote git push origin branch_name
 ```
-- To rename a current branch
 ```bash
 9. To rename a current branch git branch -m new_name
 ```
-- To merge branch _a into branch_b
 ```bash
 10. To merge branch _a into branch_b git checkout branch_b git merge branch_a
 ```
-- To abort the current merge
 ```bash
 11. To abort the current merge git merge --abort
 ```
-- To tag the current commit
 ```bash
 12. To tag the current commit git tag my_tag
 ```
-- To discard all local commits and changes
 ```bash
 13. To discard all local commits and changes git reset --hard origin/<remote_branch_name>
 ```
@@ -180,7 +174,7 @@ Use your platform’s installer or package manager.
 ## 6) Share & Update (Remotes)
 
 ```bash
-git remote add [alias] [url]
+git remote add names a remote (e.g., origin) for a URL.git remote add [alias] [url]
 git fetch [alias]
 git merge [alias]/[branch]
 git push [alias] [branch]
