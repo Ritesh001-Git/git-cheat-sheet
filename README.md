@@ -116,21 +116,17 @@ Use your platform’s installer or package manager.
 
 ## 6) Synchronize
 
-- To get the latest changes from the origin (no merge)
 ```bash
-git fetch
+1. To get the latest changes from the origin (no merge) ☛ git fetch
 ```
-- To fetch the latest changes from the origin and merge
 ```bash
-git pull
+2. To fetch the latest changes from the origin and merge ☛ git pull
 ```
-- To fetch the latest changes from the origin and rebase
 ```bash
-git pull --rebase
+3. To fetch the latest changes from the origin and rebase ☛ git pull --rebase
 ```
-- To push local changes to the origin
 ```bash
-git push
+4. To push local changes to the origin ☛ git push
 ```
 
 ## 7) Branch & Merge (Isolate Work and Integrate)
