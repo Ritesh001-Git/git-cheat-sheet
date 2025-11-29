@@ -86,9 +86,8 @@ Use your platform’s installer or package manager.
 
 ## 5)Stage & Snapshot (Working Directory ↔ Staging Area ↔ Commit)
 
-- To stage the file, ready for commit
 ```bash
-git add [file]
+To stage the file, ready for commit ☛ git add [file]
 ```
 - To stage all changed files, ready for commit
 ```bash
