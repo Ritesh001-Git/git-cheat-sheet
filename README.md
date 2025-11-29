@@ -174,11 +174,11 @@ Use your platform’s installer or package manager.
 ## 6) Share & Update (Remotes)
 
 ```bash
-git remote add names a remote (e.g., origin) for a URL.git remote add [alias] [url]
-git fetch [alias]
-git merge [alias]/[branch]
-git push [alias] [branch]
-git pull
+git remote add names a remote (e.g., origin) for a URL. git remote add names a remote (e.g., origin) for a URL.git remote add [alias] [url]
+git fetch downloads branches/commits from that remote. git fetch [alias]
+merge [alias]/[branch] brings a remote branch into your current branch. git merge [alias]/[branch]
+git push uploads your local commits to the remote branch. git push [alias] [branch]
+git pull = fetch + merge from the tracking branch. git pull
 ```
 - git remote add names a remote (e.g., origin) for a URL.
 - git fetch downloads branches/commits from that remote.
