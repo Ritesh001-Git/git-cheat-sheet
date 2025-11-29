@@ -51,7 +51,7 @@ Use your platform’s installer or package manager.
 2. git clone copies an existing remote repository onto your machine ☛ git clone [url]
 ```
 
-## 4)Observe your Repository
+## 4) Observe your Repository
 
 ```bash
 1. To list new or modified files not yet committed ☛ git status
