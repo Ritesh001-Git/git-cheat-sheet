@@ -131,31 +131,24 @@ Use your platform’s installer or package manager.
 
 ## 7) Branch & Merge (Isolate Work and Integrate)
 
-- To list all local branches
 ```bash
 1. To list all local branches git branch
 ```
-- To list remote and local branches
 ```bash
 2. To list remote and local branches git branch -a
 ```
-- To switch to an existing branch, branch_name, and update the working directory
 ```bash
 3. To switch to an existing branch, branch_name, and update the working directory git checkout branch_name
 ```
-- To switch to the last used branch
 ```bash
 4. To switch to the last used branch git checkout -
 ```
-- To create a new branch called the new branch
 ```bash
 5. To create a new branch called the new branch git branch [branch-name]
 ```
-- To create a local branch and switch to it
 ```bash
 git checkout -b branch_name
 ```
-- To delete the branch called my_branch
 ```bash
 git branch -d my_branch
 ```
