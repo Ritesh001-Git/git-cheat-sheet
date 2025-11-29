@@ -147,34 +147,34 @@ Use your platform’s installer or package manager.
 5. To create a new branch called the new branch git branch [branch-name]
 ```
 ```bash
-git checkout -b branch_name
+6. To create a local branch and switch to it git checkout -b branch_name
 ```
 ```bash
-git branch -d my_branch
+7. To delete the branch called my_branch git branch -d my_branch
 ```
 - To push a branch to remote
 ```bash
-git push origin branch_name
+8, To push a branch to remote git push origin branch_name
 ```
 - To rename a current branch
 ```bash
-git branch -m new_name
+9. To rename a current branch git branch -m new_name
 ```
 - To merge branch _a into branch_b
 ```bash
-git checkout branch_b git merge branch_a
+10. To merge branch _a into branch_b git checkout branch_b git merge branch_a
 ```
 - To abort the current merge
 ```bash
-git merge --abort
+11. To abort the current merge git merge --abort
 ```
 - To tag the current commit
 ```bash
-git tag my_tag
+12. To tag the current commit git tag my_tag
 ```
 - To discard all local commits and changes
 ```bash
-git reset --hard origin/<remote_branch_name>
+13. To discard all local commits and changes git reset --hard origin/<remote_branch_name>
 ```
 
 ## 6) Share & Update (Remotes)
