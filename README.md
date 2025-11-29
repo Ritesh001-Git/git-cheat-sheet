@@ -204,13 +204,11 @@ Use your platform’s installer or package manager.
 ## 8) Rewrite History
 
 ```bash
-git rebase [branch]
+1. To replays current branch commits on top of the specified branch (linear history) ☛ git rebase [branch]
 ```
 ```bash
-git reset --hard [commit]
+2. moves HEAD and resets both index and working tree to the given commit (discarding local changes) ☛ git reset --hard [commit]
 ```
-- git rebase replays current branch commits on top of the specified branch (linear history).
-- git reset --hard moves HEAD and resets both index and working tree to the given commit (discarding local changes).
 
 ## 8) Inspect & Compare
 
