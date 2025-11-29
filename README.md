@@ -87,19 +87,16 @@ Use your platform’s installer or package manager.
 ## 5)Stage & Snapshot (Working Directory ↔ Staging Area ↔ Commit)
 
 ```bash
-To stage the file, ready for commit ☛ git add [file]
+1. To stage the file, ready for commit ☛ git add [file]
 ```
-- To stage all changed files, ready for commit
 ```bash
-git add .
+2. To stage all changed files, ready for ☛ commit git add .
 ```
-- To commit all staged files to the versioned history
 ```bash
-git commit -m "commit message"
+3. To commit all staged files to the versioned history ☛ git commit -m "commit message"
 ```
-- To commit all your tracked files to the versioned history
 ```bash
-git commit -am "commit message"
+4. To commit all your tracked files to the versioned history ☛ git commit -am "commit message"
 ```
 - To set the executable flag to a file foo.sh
 ```bash
