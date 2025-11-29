@@ -132,69 +132,69 @@ Use your platform’s installer or package manager.
 ## 7) Branch & Merge (Isolate Work and Integrate)
 
 ```bash
-1. To list all local branches git branch
+1. To list all local branches ☛ git branch
 ```
 ```bash
-2. To list remote and local branches git branch -a
+2. To list remote and local branches ☛ git branch -a
 ```
 ```bash
-3. To switch to an existing branch, branch_name, and update the working directory git checkout branch_name
+3. To switch to an existing branch, branch_name, and update the working directory ☛ git checkout branch_name
 ```
 ```bash
-4. To switch to the last used branch git checkout -
+4. To switch to the last used branch ☛ git checkout -
 ```
 ```bash
-5. To create a new branch called the new branch git branch [branch-name]
+5. To create a new branch called the new branch ☛ git branch [branch-name]
 ```
 ```bash
-6. To create a local branch and switch to it git checkout -b branch_name
+6. To create a local branch and switch to it ☛ git checkout -b branch_name
 ```
 ```bash
-7. To delete the branch called my_branch git branch -d my_branch
+7. To delete the branch called my_branch ☛ git branch -d my_branch
 ```
 ```bash
-8, To push a branch to remote git push origin branch_name
+8, To push a branch to remote ☛ git push origin branch_name
 ```
 ```bash
-9. To rename a current branch git branch -m new_name
+9. To rename a current branch ☛ git branch -m new_name
 ```
 ```bash
-10. To merge branch _a into branch_b git checkout branch_b git merge branch_a
+10. To merge branch _a into branch_b ☛ git checkout branch_b git merge branch_a
 ```
 ```bash
-11. To abort the current merge git merge --abort
+11. To abort the current merge git ☛ merge --abort
 ```
 ```bash
-12. To tag the current commit git tag my_tag
+12. To tag the current commit ☛ git tag my_tag
 ```
 ```bash
-13. To discard all local commits and changes git reset --hard origin/<remote_branch_name>
+13. To discard all local commits and changes ☛ git reset --hard origin/<remote_branch_name>
 ```
 
 ## 6) Share & Update (Remotes)
 
 ```bash
-1. git remote add names a remote (e.g., origin) for a URL. git remote add names a remote (e.g., origin) for a URL.git remote add [alias] [url]
+1. git remote add names a remote (e.g., origin) for a URL ☛ git  remote add [alias] [url]
 ```
 ```bash
-2. git fetch downloads branches/commits from that remote. git fetch [alias]
+2. git fetch downloads branches/commits from that remote ☛ git fetch [alias]
 ```
 ```bash
-3. merge [alias]/[branch] brings a remote branch into your current branch. git merge [alias]/[branch]
+3. merge [alias]/[branch] brings a remote branch into your current branch ☛ git merge [alias]/[branch]
 ```
 ```bash
-4. git push uploads your local commits to the remote branch. git push [alias] [branch]
+4. git push uploads your local commits to the remote branch ☛ git push [alias] [branch]
 ```
 ```bash
-5. git pull = fetch + merge from the tracking branch. git pull
+5. git pull = fetch + merge from the tracking branch ☛ git pull
 ```
 
 ## 7) Tracking Path Changes (Rename / Delete Files)
 
 ```bash
-git rm [file]
-git mv [existing-path] [new-path]
-git log --stat -M
+git rm removes a file and stages the deletion git rm [file]
+git mv renames/moves a file and stages the move git mv [existing-path] [new-path]
+ git log --stat -M shows commit logs and indicates moved/renamed paths git log --stat -M
 ```
 - git rm removes a file and stages the deletion.
 - git mv renames/moves a file and stages the move.
