@@ -205,6 +205,8 @@ Use your platform’s installer or package manager.
 
 ```bash
 git rebase [branch]
+```
+```bash
 git reset --hard [commit]
 ```
 - git rebase replays current branch commits on top of the specified branch (linear history).
