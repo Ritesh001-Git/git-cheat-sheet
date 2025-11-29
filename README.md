@@ -141,7 +141,7 @@ Use your platform’s installer or package manager.
 3. To switch to an existing branch, branch_name, and update the working directory ☛ git checkout branch_name
 ```
 ```bash
-4. To switch to the last used branch ☛ git checkout -
+4. To switch to the last used branch ☛ git checkout
 ```
 ```bash
 5. To create a new branch called the new branch ☛ git branch [branch-name]
@@ -216,16 +216,40 @@ Use your platform’s installer or package manager.
 1. To view commit history ☛ git log
 ```
 ```bash
-2. To view commits in branchA not in branchB ☛ git log branchB..branchA
+2. To show commit history in single lines: git log --oneline
 ```
 ```bash
-3. To view what’s in branchA that isn’t in branchB ☛ git diff branchB...branchA
+3. To show the commit history for the last N commits: git log -2
 ```
 ```bash
-4. To traces a file’s history across renames ☛ git log --follow [file]
+4. To show commit history for the last N commits with diff: git log -p -2
 ```
 ```bash
-5. To view an object (commit, tag, tree, blob) in readable form ☛ git show [SHA]
+5. To show reflog history for emergency actions: git reflog
+```
+```bash
+6, To show all local file changes in the working tree: git diff
+```
+```bash
+7. To show changes made to a file: git diff myfile
+```
+```bash
+7. To show who changed what & when in a file: git blame myfile
+```
+```bash
+8. To show remote branches and their mapping to local: git remote show origin
+```
+```bash
+9. To view commits in branchA not in branchB ☛ git log branchB..branchA
+```
+```bash
+10. To view what’s in branchA that isn’t in branchB ☛ git diff branchB...branchA
+```
+```bash
+11. To traces a file’s history across renames ☛ git log --follow [file]
+```
+```bash
+12. To view an object (commit, tag, tree, blob) in readable form ☛ git show [SHA]
 ```
 
 ## 13) Ignoring Files
