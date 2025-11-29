@@ -192,9 +192,13 @@ Use your platform’s installer or package manager.
 ## 7) Tracking Path Changes (Rename / Delete Files)
 
 ```bash
-git rm removes a file and stages the deletion git rm [file]
+git rm removes a file and stages the deletion git rm removes a file and stages the deletion git rm [file]
+```
+```bash
 git mv renames/moves a file and stages the move git mv [existing-path] [new-path]
- git log --stat -M shows commit logs and indicates moved/renamed paths git log --stat -M
+```
+```bash
+git log --stat -M shows commit logs and indicates moved/renamed paths git log --stat -M
 ```
 - git rm removes a file and stages the deletion.
 - git mv renames/moves a file and stages the move.
