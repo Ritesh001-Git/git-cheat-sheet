@@ -213,19 +213,19 @@ Use your platform’s installer or package manager.
 ## 8) Inspect & Compare
 
 ```bash
-1. To view commit history git log
+1. To view commit history ☛ git log
 ```
 ```bash
-2. To view commits in branchA not in branchB git log branchB..branchA
+2. To view commits in branchA not in branchB ☛ git log branchB..branchA
 ```
 ```bash
-3. To view what’s in branchA that isn’t in branchB git diff branchB...branchA
+3. To view what’s in branchA that isn’t in branchB ☛ git diff branchB...branchA
 ```
 ```bash
-4. To traces a file’s history across renames. git log --follow [file]
+4. To traces a file’s history across renames ☛ git log --follow [file]
 ```
 ```bash
-5. To view an object (commit, tag, tree, blob) in readable form. git show [SHA]
+5. To view an object (commit, tag, tree, blob) in readable form ☛ git show [SHA]
 ```
 - git log shows commit history.
 - git log branchB..branchA shows commits in branchA not in branchB.
