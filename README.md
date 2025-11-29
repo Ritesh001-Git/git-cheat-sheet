@@ -98,25 +98,20 @@ Use your platform’s installer or package manager.
 ```bash
 4. To commit all your tracked files to the versioned history ☛ git commit -am "commit message"
 ```
-- To set the executable flag to a file foo.sh
 ```bash
-git update-index --chmod=+x foo.sh
+5. To set the executable flag to a file foo.sh ☛ git update-index --chmod=+x foo.sh
 ```
-- To unstaged the file, keeping the file changes
 ```bash
-git reset [file]
+6. To unstaged the file, keeping the file changes ☛ git reset [file]
 ```
-- To revert everything to the last commit
 ```bash
-git reset --hard
+7. To revert everything to the last commit ☛ git reset --hard
 ```
-- To overwrite commit history with your local history (force push)
 ```bash
-git push --force
+8. To overwrite commit history with your local history (force push) ☛ git push --force
 ```
-- To reset remote branch to specific commit (danger: use only if not distributed to other people before)
 ```bash
-git reset --hard <commit-hash> && git push -f origin <branch-name>
+10. To reset remote branch to specific commit (danger: use only if not distributed to other people before) ☛ git reset --hard <commit-hash> && git push -f origin <branch-name>
 ```
 
 ## 6) Synchronize
