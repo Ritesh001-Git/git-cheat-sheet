@@ -174,35 +174,32 @@ Use your platform’s installer or package manager.
 ## 6) Share & Update (Remotes)
 
 ```bash
-1. git remote add names a remote (e.g., origin) for a URL ☛ git  remote add [alias] [url]
+1. To add names a remote (e.g., origin) for a URL ☛ git  remote add [alias] [url]
 ```
 ```bash
-2. git fetch downloads branches/commits from that remote ☛ git fetch [alias]
+2. To downloads branches/commits from that remote ☛ git fetch [alias]
 ```
 ```bash
-3. merge [alias]/[branch] brings a remote branch into your current branch ☛ git merge [alias]/[branch]
+3. To brings a remote branch into your current branch ☛ git merge [alias]/[branch]
 ```
 ```bash
-4. git push uploads your local commits to the remote branch ☛ git push [alias] [branch]
+4. To uploads your local commits to the remote branch ☛ git push [alias] [branch]
 ```
 ```bash
-5. git pull = fetch + merge from the tracking branch ☛ git pull
+5. To fetch + merge from the tracking branch ☛ git pull
 ```
 
 ## 7) Tracking Path Changes (Rename / Delete Files)
 
 ```bash
-git rm removes a file and stages the deletion git rm removes a file and stages the deletion git rm [file]
+1. To removes a file and stages the deletion ☛ git rm [file]
 ```
 ```bash
-git mv renames/moves a file and stages the move git mv [existing-path] [new-path]
+2. To renames/moves a file and stages the move ☛ git mv [existing-path] [new-path]
 ```
 ```bash
-git log --stat -M shows commit logs and indicates moved/renamed paths git log --stat -M
+3. To shows commit logs and indicates moved/renamed paths ☛ git log --stat -M
 ```
-- git rm removes a file and stages the deletion.
-- git mv renames/moves a file and stages the move.
-- git log --stat -M shows commit logs and indicates moved/renamed paths.
 
 ## 8) Rewrite History
 
