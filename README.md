@@ -227,11 +227,6 @@ Use your platform’s installer or package manager.
 ```bash
 5. To view an object (commit, tag, tree, blob) in readable form ☛ git show [SHA]
 ```
-- git log shows commit history.
-- git log branchB..branchA shows commits in branchA not in branchB.
-- git log --follow [file] traces a file’s history across renames.
-- git diff branchB...branchA shows what’s in branchA that isn’t in branchB.
-- git show [SHA] displays an object (commit, tag, tree, blob) in readable form.
 
 ## 9) Ignoring Files
 
