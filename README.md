@@ -254,13 +254,13 @@ Use your platform’s installer or package manager.
 
 ## 13) Clean Up
 ```bash
-1. To view commit history ☛ git log
+1. To delete all untracked files: git clean -f
 ```
 ```bash
-2. To show commit history in single lines: git log --oneline
+2. To delete all untracked files and directories: git clean -df
 ```
 ```bash
-3. To show the commit history for the last N commits: git log -2
+3. To undo local modifications to all files: git checkout --
 ```
 ```bash
 4. To show commit history for the last N commits with diff: git log -p -2
