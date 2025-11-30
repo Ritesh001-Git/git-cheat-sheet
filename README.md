@@ -252,6 +252,27 @@ Use your platform’s installer or package manager.
 12. To view an object (commit, tag, tree, blob) in readable form ☛ git show [SHA]
 ```
 
+## 13) Clean Up
+```bash
+1. To view commit history ☛ git log
+```
+```bash
+2. To show commit history in single lines: git log --oneline
+```
+```bash
+3. To show the commit history for the last N commits: git log -2
+```
+```bash
+4. To show commit history for the last N commits with diff: git log -p -2
+```
+```bash
+5. To show reflog history for emergency actions: git reflog
+```
+```bash
+6, To show all local file changes in the working tree: git diff
+```
+
+
 ## 13) Ignoring Files
 
 Global ignore file:
