@@ -263,13 +263,14 @@ Use your platform’s installer or package manager.
 3. To undo local modifications to all files: git checkout --
 ```
 ```bash
-4. To show commit history for the last N commits with diff: git log -p -2
+4. To unstaged a file: git reset HEAD myfile
 ```
 ```bash
-5. To show reflog history for emergency actions: git reflog
+5. To undo local modifications to a file and stage it: git checkout -- myfile git add myfile
 ```
 ```bash
-6, To show all local file changes in the working tree: git diff
+6, To find the commit that introduced a bug: git bisect start git bisect bad git bisect good <commit>
+
 ```
 
 
