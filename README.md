@@ -254,22 +254,22 @@ Use your platform’s installer or package manager.
 
 ## 13) Clean Up
 ```bash
-1. To delete all untracked files: git clean -f
+1. To delete all untracked files ☛ git clean -f
 ```
 ```bash
-2. To delete all untracked files and directories: git clean -df
+2. To delete all untracked files and directories ☛ git clean -df
 ```
 ```bash
-3. To undo local modifications to all files: git checkout --
+3. To undo local modifications to all files ☛ git checkout --
 ```
 ```bash
-4. To unstaged a file: git reset HEAD myfile
+4. To unstaged a file ☛ git reset HEAD myfile
 ```
 ```bash
-5. To undo local modifications to a file and stage it: git checkout -- myfile git add myfile
+5. To undo local modifications to a file and stage it ☛ git checkout -- myfile git add myfile
 ```
 ```bash
-6, To find the commit that introduced a bug: git bisect start git bisect bad git bisect good <commit>
+6, To find the commit that introduced a bug ☛ git bisect start git bisect bad git bisect good <commit>
 
 ```
 
