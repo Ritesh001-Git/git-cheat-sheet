@@ -283,6 +283,17 @@ Use your platform’s installer or package manager.
 3. To remove a submodule ☛ git submodule deinit -f -- submodule_name git rm -f submodule_name git rm -f .gitmodules
 ```
 
+## 14) Subtrees
+```bash
+1. To add a subtree: git subtree add --prefix=folder_name <url>
+```
+```bash
+2. To update a subtree: git subtree pull --prefix=folder_name <url>
+```
+```bash
+3. To remove a subtree: git subtree split --prefix=folder_name git rm -rf folder_name git commit -m "Remove folder_name"
+```
+
 ## 13) Ignoring Files
 
 Global ignore file:
