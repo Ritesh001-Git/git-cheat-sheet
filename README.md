@@ -294,7 +294,7 @@ Use your platform’s installer or package manager.
 3. To remove a subtree ☛ git subtree split --prefix=folder_name git rm -rf folder_name git commit -m "Remove folder_name"
 ```
 
-## 14) Stash
+## 15) Stash
 ```bash
 1. Stash Changes with a message git stash save "message"
 ```
@@ -305,7 +305,7 @@ Use your platform’s installer or package manager.
 3. Apply the most recent stash and remove it from the stash list. git stash pop
 ```
 
-## 13) Ignoring Files
+## 16) Ignoring Files
 
 Global ignore file:
 ``` bash
@@ -319,4 +319,12 @@ logs/
 .env/
 ```
 - Set a global ignore file for patterns you always want ignored.
-- Use a repository .gitignore to keep temporary/build files out of commits. 
+- Use a repository .gitignore to keep temporary/build files out of commits.
+
+## 🗣Help
+
+```git help -a``` and ```git help -g``` list available subcommands and some
+concept guides. See ```git help <command>``` or ```git help <concept>```
+to read about a specific subcommand or concept.
+See ```git help git``` for an overview of the system.
+<br>
