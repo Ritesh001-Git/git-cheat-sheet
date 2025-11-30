@@ -294,6 +294,17 @@ Use your platform’s installer or package manager.
 3. To remove a subtree ☛ git subtree split --prefix=folder_name git rm -rf folder_name git commit -m "Remove folder_name"
 ```
 
+## 14) Stash
+```bash
+1. Stash Changes with a message git stash save "message"
+```
+```bash
+2. List all stashes git stash list
+```
+```bash
+3. Apply the most recent stash and remove it from the stash list. git stash pop
+```
+
 ## 13) Ignoring Files
 
 Global ignore file:
