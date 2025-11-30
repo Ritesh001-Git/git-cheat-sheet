@@ -274,13 +274,13 @@ Use your platform’s installer or package manager.
 ```
 ## 14) Submodules
 ```bash
-1. To add a submodule: git submodule add <url>
+1. To add a submodule ☛ git submodule add <url>
 ```
 ```bash
-2. To update a submodule: git submodule update --remote
+2. To update a submodule ☛ git submodule update --remote
 ```
 ```bash
-3. To remove a submodule: git submodule deinit -f -- submodule_name git rm -f submodule_name git rm -f .gitmodules
+3. To remove a submodule ☛ git submodule deinit -f -- submodule_name git rm -f submodule_name git rm -f .gitmodules
 ```
 
 ## 13) Ignoring Files
