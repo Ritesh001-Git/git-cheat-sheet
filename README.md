@@ -171,7 +171,7 @@ Use your platform’s installer or package manager.
 13. To discard all local commits and changes ☛ git reset --hard origin/<remote_branch_name>
 ```
 
-## 8) Share & Update (Remotes)
+## 8) 🚀 Share & Update (Remotes)
 
 ```bash
 1. To add names a remote (e.g., origin) for a URL ☛ git  remote add [alias] [url]
@@ -189,7 +189,7 @@ Use your platform’s installer or package manager.
 5. To fetch + merge from the tracking branch ☛ git pull
 ```
 
-## 9) Tracking Path Changes (Rename / Delete Files)
+## 9) 🛣️ Tracking Path Changes (Rename / Delete Files)
 
 ```bash
 1. To removes a file and stages the deletion ☛ git rm [file]
@@ -201,7 +201,7 @@ Use your platform’s installer or package manager.
 3. To shows commit logs and indicates moved/renamed paths ☛ git log --stat -M
 ```
 
-## 10) Rewrite History
+## 10) ✂️ Rewrite History
 
 ```bash
 1. To replays current branch commits on top of the specified branch (linear history) ☛ git rebase [branch]
@@ -210,7 +210,7 @@ Use your platform’s installer or package manager.
 2. moves HEAD and resets both index and working tree to the given commit (discarding local changes) ☛ git reset --hard [commit]
 ```
 
-## 12) Inspect & Compare
+## 12) 🔍 Inspect & Compare
 
 ```bash
 1. To view commit history ☛ git log
@@ -252,7 +252,7 @@ Use your platform’s installer or package manager.
 12. To view an object (commit, tag, tree, blob) in readable form ☛ git show [SHA]
 ```
 
-## 13) Clean Up
+## 13) 🧹 Clean Up
 ```bash
 1. To delete all untracked files ☛ git clean -f
 ```
@@ -272,7 +272,7 @@ Use your platform’s installer or package manager.
 6, To find the commit that introduced a bug ☛ git bisect start git bisect bad git bisect good <commit>
 
 ```
-## 14) Submodules
+## 14) 🧩 Submodules
 ```bash
 1. To add a submodule ☛ git submodule add <url>
 ```
@@ -283,7 +283,7 @@ Use your platform’s installer or package manager.
 3. To remove a submodule ☛ git submodule deinit -f -- submodule_name git rm -f submodule_name git rm -f .gitmodules
 ```
 
-## 14) Subtrees
+## 15) Subtrees
 ```bash
 1. To add a subtree ☛ git subtree add --prefix=folder_name <url>
 ```
