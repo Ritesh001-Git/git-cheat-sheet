@@ -328,3 +328,7 @@ concept guides. See ```git help <command>``` or ```git help <concept>```
 to read about a specific subcommand or concept.
 See ```git help git``` for an overview of the system.
 <br>
+
+## Git Resources
+You should check some of these Git resources as they would be amazing for your journey.
+You will master Git with these resources:
