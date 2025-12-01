@@ -342,3 +342,5 @@ This site provides free full-stack courses that are maintained by the open-sourc
 #### ⭐ [Learn Git Branching](https://learngitbranching.js.org/)
 Branching is an important topic in Git. There's no better way to learn it than this interactive game. Run commands with their built-in terminal and let their graphics explain the rest.
 
+#### ⭐ [Git Tutorial by Atlasian](https://www.atlassian.com/git/tutorials)
+Become a git guru with the help of Atlassian tutorials. Atlassian has done a fantastic job with their explanations and visuals to understand git. This is one of the top resources for learning Git.
