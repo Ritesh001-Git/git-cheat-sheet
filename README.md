@@ -329,6 +329,10 @@ to read about a specific subcommand or concept.
 See ```git help git``` for an overview of the system.
 <br>
 
-## Git Resources
+## 🌐 Git Resources
 You should check some of these Git resources as they would be amazing for your journey.
 You will master Git with these resources:
+
+#### ⭐ [Oh My Git](https://ohmygit.org/)
+This is an open-source card game that is dedicated to teaching important git commands. There's even an integrated terminal for you to test any git command you wish. Their graphics are nothing fancy but it helps with learning visually.
+
