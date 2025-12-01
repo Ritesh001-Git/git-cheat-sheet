@@ -2,7 +2,7 @@
 
 This README collects the most common Git commands with short, practical explanations so you can copy & paste them directly. It is adapted from the GitHub Education **GIT CHEAT SHEET**.
 
-## 1) 📦 Installation (Pointers)
+## 📦 Installation (Pointers)
 Use your platform’s installer or package manager.
 - Git for all platforms: git-scm.com
 - GitHub Desktop for Windows/Mac
@@ -11,7 +11,7 @@ Use your platform’s installer or package manager.
 
 ---
 
-## 2) ⚙️ Setup (Global Identity & UI)
+## ⚙️ Setup (Global Identity & UI)
 
 ```bash
 1. Set your global author name ☛ git config --global user.name "[firstname lastname]"
@@ -42,7 +42,7 @@ Use your platform’s installer or package manager.
 ```
 ---
 
-## 3) 📁 Initialize or Clone a Repository
+## 📁 Initialize or Clone a Repository
 
 ```bash
 1. git init turns the current folder into a new ☛ git init
@@ -51,7 +51,7 @@ Use your platform’s installer or package manager.
 2. git clone copies an existing remote repository onto your machine ☛ git clone [url]
 ```
 
-## 4) 👀 Observe your Repository
+## 👀 Observe your Repository
 
 ```bash
 1. To list new or modified files not yet committed ☛ git status
@@ -84,7 +84,7 @@ Use your platform’s installer or package manager.
 10. To show the change history for a specific author ☛ git log --author="[author name]"
 ```
 
-## 5) 📝 Stage & Snapshot (Working Directory ↔ Staging Area ↔ Commit)
+## 📝 Stage & Snapshot (Working Directory ↔ Staging Area ↔ Commit)
 
 ```bash
 1. To stage the file, ready for commit ☛ git add [file]
@@ -114,7 +114,7 @@ Use your platform’s installer or package manager.
 10. To reset remote branch to specific commit (danger: use only if not distributed to other people before) ☛ git reset --hard <commit-hash> && git push -f origin <branch-name>
 ```
 
-## 6) 🔄 Synchronize
+## 🔄 Synchronize
 
 ```bash
 1. To get the latest changes from the origin (no merge) ☛ git fetch
@@ -129,7 +129,7 @@ Use your platform’s installer or package manager.
 4. To push local changes to the origin ☛ git push
 ```
 
-## 7) 🌿 Branch & Merge (Isolate Work and Integrate)
+## 🌿 Branch & Merge (Isolate Work and Integrate)
 
 ```bash
 1. To list all local branches ☛ git branch
@@ -171,7 +171,7 @@ Use your platform’s installer or package manager.
 13. To discard all local commits and changes ☛ git reset --hard origin/<remote_branch_name>
 ```
 
-## 8) 🚀 Share & Update (Remotes)
+## 🚀 Share & Update (Remotes)
 
 ```bash
 1. To add names a remote (e.g., origin) for a URL ☛ git  remote add [alias] [url]
@@ -189,7 +189,7 @@ Use your platform’s installer or package manager.
 5. To fetch + merge from the tracking branch ☛ git pull
 ```
 
-## 9) 🛣️ Tracking Path Changes (Rename / Delete Files)
+## 🛣️ Tracking Path Changes (Rename / Delete Files)
 
 ```bash
 1. To removes a file and stages the deletion ☛ git rm [file]
@@ -201,7 +201,7 @@ Use your platform’s installer or package manager.
 3. To shows commit logs and indicates moved/renamed paths ☛ git log --stat -M
 ```
 
-## 10) ✂️ Rewrite History
+## ✂️ Rewrite History
 
 ```bash
 1. To replays current branch commits on top of the specified branch (linear history) ☛ git rebase [branch]
@@ -210,7 +210,7 @@ Use your platform’s installer or package manager.
 2. moves HEAD and resets both index and working tree to the given commit (discarding local changes) ☛ git reset --hard [commit]
 ```
 
-## 12) 🔍 Inspect & Compare
+## 🔍 Inspect & Compare
 
 ```bash
 1. To view commit history ☛ git log
@@ -252,7 +252,7 @@ Use your platform’s installer or package manager.
 12. To view an object (commit, tag, tree, blob) in readable form ☛ git show [SHA]
 ```
 
-## 13) 🧹 Clean Up
+## 🧹 Clean Up
 ```bash
 1. To delete all untracked files ☛ git clean -f
 ```
@@ -272,7 +272,7 @@ Use your platform’s installer or package manager.
 6, To find the commit that introduced a bug ☛ git bisect start git bisect bad git bisect good <commit>
 
 ```
-## 14) 🧩 Submodules
+## 🧩 Submodules
 ```bash
 1. To add a submodule ☛ git submodule add <url>
 ```
@@ -283,7 +283,7 @@ Use your platform’s installer or package manager.
 3. To remove a submodule ☛ git submodule deinit -f -- submodule_name git rm -f submodule_name git rm -f .gitmodules
 ```
 
-## 15) 🌳 Subtrees
+## 🌳 Subtrees
 ```bash
 1. To add a subtree ☛ git subtree add --prefix=folder_name <url>
 ```
@@ -294,7 +294,7 @@ Use your platform’s installer or package manager.
 3. To remove a subtree ☛ git subtree split --prefix=folder_name git rm -rf folder_name git commit -m "Remove folder_name"
 ```
 
-## 16) 📥 Stash
+## 📥 Stash
 ```bash
 1. Stash Changes with a message git stash save "message"
 ```
@@ -305,7 +305,7 @@ Use your platform’s installer or package manager.
 3. Apply the most recent stash and remove it from the stash list. git stash pop
 ```
 
-## 16) 🙈 Ignoring Files
+## 🙈 Ignoring Files
 
 Global ignore file:
 ``` bash
