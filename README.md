@@ -2,7 +2,7 @@
 
 This README collects the most common Git commands with short, practical explanations so you can copy & paste them directly. It is adapted from the GitHub Education **GIT CHEAT SHEET**.
 
-## 1) Installation (Pointers)
+## 1) 📦 Installation (Pointers)
 Use your platform’s installer or package manager.
 - Git for all platforms: git-scm.com
 - GitHub Desktop for Windows/Mac
@@ -11,7 +11,7 @@ Use your platform’s installer or package manager.
 
 ---
 
-## 2) Setup (Global Identity & UI)
+## 2) ⚙️ Setup (Global Identity & UI)
 
 ```bash
 1. Set your global author name ☛ git config --global user.name "[firstname lastname]"
@@ -42,7 +42,7 @@ Use your platform’s installer or package manager.
 ```
 ---
 
-## 3) Initialize or Clone a Repository
+## 3) 📁 Initialize or Clone a Repository
 
 ```bash
 1. git init turns the current folder into a new ☛ git init
@@ -51,7 +51,7 @@ Use your platform’s installer or package manager.
 2. git clone copies an existing remote repository onto your machine ☛ git clone [url]
 ```
 
-## 4) Observe your Repository
+## 4) 👀 Observe your Repository
 
 ```bash
 1. To list new or modified files not yet committed ☛ git status
@@ -84,7 +84,7 @@ Use your platform’s installer or package manager.
 10. To show the change history for a specific author ☛ git log --author="[author name]"
 ```
 
-## 5) Stage & Snapshot (Working Directory ↔ Staging Area ↔ Commit)
+## 5) 📝 Stage & Snapshot (Working Directory ↔ Staging Area ↔ Commit)
 
 ```bash
 1. To stage the file, ready for commit ☛ git add [file]
@@ -114,7 +114,7 @@ Use your platform’s installer or package manager.
 10. To reset remote branch to specific commit (danger: use only if not distributed to other people before) ☛ git reset --hard <commit-hash> && git push -f origin <branch-name>
 ```
 
-## 6) Synchronize
+## 6) 🔄 Synchronize
 
 ```bash
 1. To get the latest changes from the origin (no merge) ☛ git fetch
@@ -129,7 +129,7 @@ Use your platform’s installer or package manager.
 4. To push local changes to the origin ☛ git push
 ```
 
-## 7) Branch & Merge (Isolate Work and Integrate)
+## 7) 🌿 Branch & Merge (Isolate Work and Integrate)
 
 ```bash
 1. To list all local branches ☛ git branch
