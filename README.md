@@ -344,3 +344,7 @@ Branching is an important topic in Git. There's no better way to learn it than t
 
 #### ⭐ [Git Tutorial by Atlasian](https://www.atlassian.com/git/tutorials)
 Become a git guru with the help of Atlassian tutorials. Atlassian has done a fantastic job with their explanations and visuals to understand git. This is one of the top resources for learning Git.
+
+#### ⭐ [Git Immersion](https://gitimmersion.com/)
+Learn all the fundamentals of Git with this guided tour. This resource explains every important Git command while you execute them on your local machine.
+
