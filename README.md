@@ -336,3 +336,9 @@ You will master Git with these resources:
 #### ⭐ [Oh My Git](https://ohmygit.org/)
 This is an open-source card game that is dedicated to teaching important git commands. There's even an integrated terminal for you to test any git command you wish. Their graphics are nothing fancy but it helps with learning visually.
 
+#### ⭐ [The Odin Project](https://www.theodinproject.com/lessons/foundations-git-basics)
+This site provides free full-stack courses that are maintained by the open-source community. They have two git courses that are well worth your attention.
+
+#### ⭐ [Learn Git Branching](https://learngitbranching.js.org/)
+Branching is an important topic in Git. There's no better way to learn it than this interactive game. Run commands with their built-in terminal and let their graphics explain the rest.
+
