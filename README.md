@@ -350,3 +350,7 @@ Learn all the fundamentals of Git with this guided tour. This resource explains 
 
 #### ⭐ [Visual Git Reference](https://marklodato.github.io/visual-git-guide/index-en.html)
 I'm a big believer that visual aids help you better understand and remember information. Which is why this resource is a must-see. Their diagrams and explanations are top-tier.
+
+#### ⭐ [GitHub Minesweeper](https://profy.dev/project/github-minesweeper)
+Get a dose of nostalgia with this one! Learn on-the-job Git workflow while playing minesweeper with another player. So much fun you'll forget you're even learning.
+
