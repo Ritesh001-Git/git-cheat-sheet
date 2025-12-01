@@ -14,7 +14,7 @@ Use your platform’s installer or package manager.
 ## ⚙️ Setup (Global Identity & UI)
 
 ```bash
-1. Set your global author name ☛ git config --global user.name "[firstname lastname]"
+1. Set your global author name ☛ ```bash git config --global user.name "[firstname lastname]"
 ```
 ```bash
 2. Set the email associated with your user account ☛ git config --global user.email "[valid-email]"
