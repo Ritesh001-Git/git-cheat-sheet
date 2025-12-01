@@ -354,7 +354,7 @@ I'm a big believer that visual aids help you better understand and remember info
 #### ⭐ [GitHub Minesweeper](https://profy.dev/project/github-minesweeper)
 Get a dose of nostalgia with this one! Learn on-the-job Git workflow while playing minesweeper with another player. So much fun you'll forget you're even learning.
 
-## Are you more of an extensive reader, we got you!
+## Are you more of an extensive reader, I got you!
 
 For more in-depth reading - you should check Git Notes for Professionals 📕
 - [Git Notes for Professionals by GoalKicker](https://goalkicker.com/GitBook/GitNotesForProfessionals.pdf)
