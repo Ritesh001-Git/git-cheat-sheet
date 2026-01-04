@@ -381,5 +381,5 @@ For more in-depth reading - you should check Git Notes for Professionals 📕
 - [Git Notes for Professionals by GoalKicker](https://goalkicker.com/GitBook/GitNotesForProfessionals.pdf)
 
 
-### If this project helped you in any way, please consider giving it a ⭐️. It will help us reach more people and help them learn Git & GitHub.
+### If this cheat sheet helped you in any way, please consider giving it a ⭐️. It will help us reach more people and help them learn Git & GitHub.
 
