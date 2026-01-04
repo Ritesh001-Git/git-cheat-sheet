@@ -2,6 +2,27 @@
 
 This README collects the most common Git commands with short, practical explanations so you can copy & paste them directly. It is adapted from the GitHub Education **GIT CHEAT SHEET**.
 
+## 📑 Table of Contents
+
+* [📦 Installation](#-installation-pointers)
+* [⚙️ Setup (Global Identity & UI)](#️-setup-global-identity--ui)
+* [📁 Initialize or Clone a Repository](#-initialize-or-clone-a-repository)
+* [👀 Observe your Repository](#-observe-your-repository)
+* [📝 Stage & Snapshot](#-stage--snapshot-working-directory--staging-area--commit)
+* [🔄 Synchronize](#-synchronize)
+* [🌿 Branch & Merge](#-branch--merge-isolate-work-and-integrate)
+* [🚀 Share & Update (Remotes)](#-share--update-remotes)
+* [🛣️ Tracking Path Changes](#️-tracking-path-changes-rename--delete-files)
+* [✂️ Rewrite History](#️-rewrite-history)
+* [🔍 Inspect & Compare](#-inspect--compare)
+* [🧹 Clean Up](#-clean-up)
+* [🧩 Submodules](#-submodules)
+* [🌳 Subtrees](#-subtrees)
+* [📥 Stash](#-stash)
+* [🙈 Ignoring Files](#-ignoring-files)
+* [❓ Help](#-help)
+* [🌐 Git Resources](#-git-resources)
+
 ## 📦 Installation (Pointers)
 Use your platform’s installer or package manager.
 - Git for all platforms: git-scm.com
