@@ -4,13 +4,13 @@ This README collects the most common Git commands with short, practical explanat
 
 ## 📑 Table of Contents
 
-* [📦 Installation](#-installation-pointers)
-* [⚙️ Setup (Global Identity & UI)](#️-setup-global-identity--ui)
-* [📁 Initialize or Clone a Repository](#-initialize-or-clone-a-repository)
-* [👀 Observe your Repository](#-observe-your-repository)
-* [📝 Stage & Snapshot](#-stage--snapshot-working-directory--staging-area--commit)
+* [📦 Installation](https://github.com/Ritesh001-Git/git-cheat-sheet?tab=readme-ov-file#-installation-pointers)
+* [⚙️ Setup (Global Identity & UI)](https://github.com/Ritesh001-Git/git-cheat-sheet?tab=readme-ov-file#%EF%B8%8F-setup-global-identity--ui)
+* [📁 Initialize or Clone a Repository](https://github.com/Ritesh001-Git/git-cheat-sheet?tab=readme-ov-file#-initialize-or-clone-a-repository)
+* [👀 Observe your Repository](https://github.com/Ritesh001-Git/git-cheat-sheet?tab=readme-ov-file#-observe-your-repository)
+* [📝 Stage & Snapshot](https://github.com/Ritesh001-Git/git-cheat-sheet?tab=readme-ov-file#-stage--snapshot-working-directory--staging-area--commit)
 * [🔄 Synchronize](#-synchronize)
-* [🌿 Branch & Merge](#-branch--merge-isolate-work-and-integrate)
+* [🌿 Branch & Merge](https://github.com/Ritesh001-Git/git-cheat-sheet?tab=readme-ov-file#-branch--merge-isolate-work-and-integrate)
 * [🚀 Share & Update (Remotes)](#-share--update-remotes)
 * [🛣️ Tracking Path Changes](#️-tracking-path-changes-rename--delete-files)
 * [✂️ Rewrite History](#️-rewrite-history)
