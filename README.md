@@ -180,7 +180,7 @@ Use your platform’s installer or package manager.
 9. To rename a current branch ☛ git branch -m new_name
 ```
 ```bash
-10. To merge branch _a into branch_b ☛ git checkout branch_b git merge branch_a
+10. To merge branch _a into branch_b ☛ git merge branch_a
 ```
 ```bash
 11. To abort the current merge git ☛ merge --abort
