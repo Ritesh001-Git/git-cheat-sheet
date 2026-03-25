@@ -143,6 +143,15 @@ Command | Description | Example
 
 ---
 
+## ✂️ Rewrite History
+
+Command | Description | Example
+--- | --- | ---
+`git rebase branch` | rebase commits | `git rebase main`
+`git reset --hard commit` | reset to commit | `git reset --hard abc123`
+
+---
+
 ## 🙈 Ignoring Files
 
 Global ignore file:
