@@ -172,6 +172,39 @@ Command | Description | Example
 
 ---
 
+## 🧹 Clean Up
+
+Command | Description | Example
+--- | --- | ---
+`git clean -f` | remove untracked files | `git clean -f`
+`git clean -df` | remove files + dirs | `git clean -df`
+`git checkout --` | discard changes | `git checkout --`
+`git reset HEAD file` | unstage file | `git reset HEAD app.js`
+`git checkout -- file && git add file` | reset + stage | `git checkout -- app.js && git add app.js`
+`git bisect start` | start bisect | `git bisect start`
+
+---
+
+## 🧩 Submodules
+
+Command | Description | Example
+--- | --- | ---
+`git submodule add url` | add submodule | `git submodule add repo-url`
+`git submodule update --remote` | update submodule | `git submodule update --remote`
+`git submodule deinit -f` | remove submodule | `git submodule deinit -f module`
+
+---
+
+## 🌳 Subtrees
+
+Command | Description | Example
+--- | --- | ---
+`git subtree add --prefix=dir url` | add subtree | `git subtree add --prefix=app repo`
+`git subtree pull --prefix=dir url` | update subtree | `git subtree pull --prefix=app repo`
+`git subtree split --prefix=dir` | split subtree | `git subtree split --prefix=app`
+
+---
+
 ## 📥 Stash
 
 Command | Description | Example
