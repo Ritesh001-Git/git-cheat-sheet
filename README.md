@@ -133,6 +133,16 @@ Command | Description | Example
 
 ---
 
+## 🛣️ Tracking Path Changes
+
+Command | Description | Example
+--- | --- | ---
+`git rm file` | delete file | `git rm app.js`
+`git mv old new` | rename file | `git mv a.txt b.txt`
+`git log --stat -M` | show renamed files | `git log --stat -M`
+
+---
+
 ## 🙈 Ignoring Files
 
 Global ignore file:
