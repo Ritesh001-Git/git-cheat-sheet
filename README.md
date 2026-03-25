@@ -90,6 +90,18 @@ Command | Description | Example
 
 ---
 
+## 🔄 Synchronize
+
+Command | Description | Example
+--- | --- | ---
+`git fetch` | fetch remote changes | `git fetch`
+`git pull` | fetch + merge | `git pull`
+`git pull --rebase` | fetch + rebase | `git pull --rebase`
+`git push` | push changes | `git push`
+
+---
+
+
 ## 🙈 Ignoring Files
 
 Global ignore file:
