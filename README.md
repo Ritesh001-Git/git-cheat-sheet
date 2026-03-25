@@ -74,6 +74,21 @@ Command | Description | Example
 
 ---
 
+## 📝 Stage & Snapshot
+
+Command | Description | Example
+--- | --- | ---
+`git add [file]` | stage file | `git add index.js`
+`git add .` | stage all files | `git add .`
+`git commit -m "msg"` | commit staged changes | `git commit -m "init"`
+`git commit -am "msg"` | commit tracked files | `git commit -am "update"`
+`git update-index --chmod=+x file` | make file executable | `git update-index --chmod=+x script.sh`
+`git reset [file]` | unstage file | `git reset index.js`
+`git reset --hard` | reset all changes | `git reset --hard`
+`git push --force` | force push | `git push --force`
+`git reset --hard <hash> && git push -f origin <branch>` | reset remote branch | `git reset --hard abc123 && git push -f origin main`
+
+---
 
 ## 🙈 Ignoring Files
 
