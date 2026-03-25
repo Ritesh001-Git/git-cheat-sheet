@@ -172,6 +172,14 @@ Command | Description | Example
 
 ---
 
+## 📥 Stash
+
+Command | Description | Example
+--- | --- | ---
+`git stash save "msg"` | stash changes | `git stash save "work"`
+`git stash list` | list stashes | `git stash list`
+`git stash pop` | apply + remove stash | `git stash pop`
+
 ## 🙈 Ignoring Files
 
 Global ignore file:
