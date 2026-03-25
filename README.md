@@ -32,6 +32,21 @@ Use your platform’s installer or package manager.
 
 ---
 
+## ⚙️ Setup (Global Identity & UI)
+
+Command | Description | Example
+--- | --- | ---
+`git config --global user.name "[firstname lastname]"` | set global username | `git config --global user.name "Ritesh Swain"`
+`git config --global user.email "[valid-email]"` | set global email | `git config --global user.email "abc@gmail.com"`
+`git config --global color.ui auto` | enable colored CLI output | `git config --global color.ui auto`
+`git config --global core.editor "vim"` | set default editor | `git config --global core.editor "vim"`
+`git config --global merge.tool "vimdiff"` | set merge tool | `git config --global merge.tool "vimdiff"`
+`git config --global push.default "simple"` | set default push behavior | `git config --global push.default simple`
+`git config --global pull.rebase "true"` | enable rebase on pull | `git config --global pull.rebase true`
+`git config --global init.defaultBranch "main"` | set default branch | `git config --global init.defaultBranch main`
+`git config --global credential.helper "cache --timeout=3600"` | cache credentials | `git config --global credential.helper "cache --timeout=3600"`
+
+---
 
 
 
