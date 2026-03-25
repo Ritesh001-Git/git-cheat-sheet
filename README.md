@@ -48,7 +48,14 @@ Command | Description | Example
 
 ---
 
+## 📁 Initialize or Clone a Repository
 
+Command | Description | Example
+--- | --- | ---
+`git init` | initialize new repository | `git init`
+`git clone [url]` | clone remote repo | `git clone https://github.com/user/repo.git`
+
+---
 
 
 ## 🙈 Ignoring Files
