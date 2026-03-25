@@ -101,6 +101,26 @@ Command | Description | Example
 
 ---
 
+## 🌿 Branch & Merge
+
+Command | Description | Example
+--- | --- | ---
+`git branch` | list branches | `git branch`
+`git branch -a` | list all branches | `git branch -a`
+`git checkout branch` | switch branch | `git checkout dev`
+`git checkout` | switch last branch | `git checkout`
+`git branch name` | create branch | `git branch feature`
+`git checkout -b name` | create + switch | `git checkout -b feature`
+`git branch -d name` | delete branch | `git branch -d feature`
+`git push origin branch` | push branch | `git push origin feature`
+`git branch -m new` | rename branch | `git branch -m main`
+`git merge branch` | merge branch | `git merge dev`
+`git merge --abort` | abort merge | `git merge --abort`
+`git tag tag` | create tag | `git tag v1.0`
+`git reset --hard origin/branch` | discard local changes | `git reset --hard origin/main`
+
+---
+
 
 ## 🙈 Ignoring Files
 
