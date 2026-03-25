@@ -121,6 +121,17 @@ Command | Description | Example
 
 ---
 
+## 🚀 Share & Update (Remotes)
+
+Command | Description | Example
+--- | --- | ---
+`git remote add name url` | add remote | `git remote add origin url`
+`git fetch name` | fetch remote | `git fetch origin`
+`git merge name/branch` | merge remote | `git merge origin/main`
+`git push name branch` | push to remote | `git push origin main`
+`git pull` | fetch + merge | `git pull`
+
+---
 
 ## 🙈 Ignoring Files
 
