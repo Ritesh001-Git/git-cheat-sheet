@@ -57,6 +57,23 @@ Command | Description | Example
 
 ---
 
+## 👀 Observe your Repository
+
+Command | Description | Example
+--- | --- | ---
+`git status` | show working directory status | `git status`
+`git diff` | show unstaged changes | `git diff`
+`git diff --cached` | show staged changes | `git diff --cached`
+`git diff HEAD` | show all changes | `git diff HEAD`
+`git diff commit1 commit2` | compare commits | `git diff a1b2 c3d4`
+`git blame [file]` | show author per line | `git blame app.js`
+`git show [commit]:[file]` | show file in commit | `git show abc123:app.js`
+`git log` | show commit history | `git log`
+`git log -p [file]` | show history with diff | `git log -p app.js`
+`git log --author="name"` | filter by author | `git log --author="Ritesh"`
+
+---
+
 
 ## 🙈 Ignoring Files
 
