@@ -152,6 +152,26 @@ Command | Description | Example
 
 ---
 
+## 🔍 Inspect & Compare
+
+Command | Description | Example
+--- | --- | ---
+`git log` | show history | `git log`
+`git log --oneline` | compact log | `git log --oneline`
+`git log -2` | last 2 commits | `git log -2`
+`git log -p -2` | commits with diff | `git log -p -2`
+`git reflog` | show reflog | `git reflog`
+`git diff` | show changes | `git diff`
+`git diff file` | diff file | `git diff app.js`
+`git blame file` | blame file | `git blame app.js`
+`git remote show origin` | show remote info | `git remote show origin`
+`git log A..B` | commits diff | `git log main..dev`
+`git diff A...B` | diff branches | `git diff main...dev`
+`git log --follow file` | track file history | `git log --follow app.js`
+`git show SHA` | show object | `git show abc123`
+
+---
+
 ## 🙈 Ignoring Files
 
 Global ignore file:
