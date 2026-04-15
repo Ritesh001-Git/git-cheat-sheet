@@ -100,7 +100,7 @@ Rebase is much more aggressive than merge. Internally, it is a "Copy and Paste" 
 - The Re-play: One by one, it takes those saved commits and tries to apply them onto the new base.
   - Crucial Detail: Because the "parent" of the commit has changed, the SHA-1 hash changes. These are technically brand-new commits, even if the code looks the same.
 
-## 5. git checkout / git switch: The "Pointer" Workflow
+## 5. `git checkout` / `git switch`: The "Pointer" Workflow
 When you move between branches, you are manipulating the HEAD pointer.
 
 - HEAD Move: Git changes the file `.git/HEAD` to point to a different branch reference (e.g., `ref: refs/heads/feature`).
