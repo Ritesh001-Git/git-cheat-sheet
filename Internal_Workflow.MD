@@ -21,7 +21,7 @@ When data moves from your Working Directory to the Index (e.g., via git add), Gi
 - Result: This hash is the "address" of that file. If two files in different folders have the same content, Git only stores them once.
 - Storage: The content is compressed and saved as a Blob (Binary Large Object) in the database.
 
-Stage B: Tree Building (The "Structure" Phase)
+### Stage B: Tree Building (The "Structure" Phase)
 Once you trigger a state change (like git commit), Git needs to record the "shape" of your project.
 
 - Action: It look at the Index and groups those file hashes into Tree Objects.
@@ -41,3 +41,12 @@ The final step in every command is moving the "labels."
 - Action: Git updates a simple text file in .git/refs/heads/.
 - Result: If you are on the main branch, the file main is updated to contain the 40-character SHA-1 hash of the new Commit Object you just created.
 - HEAD: The HEAD pointer is then updated to let Git know where you are currently standing.
+
+# The git add, commit & push workflow
+
+## 1. The git add Phase (Indexing)
+When you run git add file.txt, Git doesn't just "mark" the file. It performs a massive internal operation:
+
+- Hashing: Git takes the content of your file and runs it through a SHA-1 hashing algorithm. This creates a unique 40-character string (e.g., 5d4140...).
+- Blob Creation: It creates a Blob object (Binary Large Object) containing your file data and stores it in `.git/objects`.
+- The Index Update: It updates the Index (a binary file at `.git/index)`. The Index is the "Stage." It maps your filename to that specific SHA-1 hash.
