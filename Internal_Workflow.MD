@@ -50,3 +50,15 @@ When you run git add file.txt, Git doesn't just "mark" the file. It performs a m
 - Hashing: Git takes the content of your file and runs it through a SHA-1 hashing algorithm. This creates a unique 40-character string (e.g., 5d4140...).
 - Blob Creation: It creates a Blob object (Binary Large Object) containing your file data and stores it in `.git/objects`.
 - The Index Update: It updates the Index (a binary file at `.git/index)`. The Index is the "Stage." It maps your filename to that specific SHA-1 hash.
+
+## 2. The git commit Phase (Snapshotting)
+When you run git commit -m "Initial", Git solidifies the state of the Index into a permanent record.
+
+- Tree Creation: Git creates a Tree object. This is essentially a "directory listing." It points to the Blobs (files) and other Trees (subfolders) that make up your project at that exact moment.
+- Commit Object: Git creates a Commit object. This tiny text file contains:
+
+-- The hash of the Tree (the snapshot).
+-- The hash of the Parent Commit (the previous state).
+-- Metadata: Author, timestamp, and your message.
+
+- Moving the Pointer: Finally, Git updates the Branch Pointer (e.g., refs/heads/main) to point to the hash of this new Commit object.
