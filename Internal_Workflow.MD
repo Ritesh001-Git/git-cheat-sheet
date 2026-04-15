@@ -28,20 +28,16 @@ Once you trigger a state change (like git commit), Git needs to record the "shap
 - Hierarchy: A Tree object acts like a folder. It contains a list of hashes (pointing to Blobs) and names.
 - Result: This creates a snapshot of the entire project structure at that exact moment.
 
-Stage C: Snapshotting (The "Context" Phase)
+### Stage C: Snapshotting (The "Context" Phase)
 Now that Git has the files (Blobs) and the folders (Trees), it needs to know why and when this happened.
 
-Action: It creates a Commit Object.
+- Action: It creates a Commit Object.
+- Linking: This object points to the Root Tree (the top-level folder) and, crucially, to the hash of the Parent Commit.
+- Chain: This "Parent Pointer" is what creates the "Git Chain" or history. Without it, you just have random snapshots.
 
-Linking: This object points to the Root Tree (the top-level folder) and, crucially, to the hash of the Parent Commit.
-
-Chain: This "Parent Pointer" is what creates the "Git Chain" or history. Without it, you just have random snapshots.
-
-Stage D: Reference Updating (The "Pointer" Phase)
+### Stage D: Reference Updating (The "Pointer" Phase)
 The final step in every command is moving the "labels."
 
-Action: Git updates a simple text file in .git/refs/heads/.
-
-Result: If you are on the main branch, the file main is updated to contain the 40-character SHA-1 hash of the new Commit Object you just created.
-
-HEAD: The HEAD pointer is then updated to let Git know where you are currently standing.
+- Action: Git updates a simple text file in .git/refs/heads/.
+- Result: If you are on the main branch, the file main is updated to contain the 40-character SHA-1 hash of the new Commit Object you just created.
+- HEAD: The HEAD pointer is then updated to let Git know where you are currently standing.
