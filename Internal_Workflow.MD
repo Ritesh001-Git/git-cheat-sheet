@@ -57,8 +57,18 @@ When you run git commit -m "Initial", Git solidifies the state of the Index into
 - Tree Creation: Git creates a Tree object. This is essentially a "directory listing." It points to the Blobs (files) and other Trees (subfolders) that make up your project at that exact moment.
 - Commit Object: Git creates a Commit object. This tiny text file contains:
 
- - The hash of the Tree (the snapshot).
- - The hash of the Parent Commit (the previous state).
- - Metadata: Author, timestamp, and your message.
+  - The hash of the Tree (the snapshot).
+  - The hash of the Parent Commit (the previous state).
+  - Metadata: Author, timestamp, and your message.
 
 - Moving the Pointer: Finally, Git updates the Branch Pointer (e.g., refs/heads/main) to point to the hash of this new Commit object.
+
+3. The git push Phase (The Negotiation)
+This is where the communication with GitHub (the remote) happens. It follows a protocol called the Smart HTTP or SSH Transport Protocol.
+
+- The Handshake: Your local Git client connects to the GitHub server.
+- Discovery: GitHub sends a list of all the commit hashes it currently has for that branch.
+- The Negotiation: Your local Git compares GitHub’s list with your local history. It identifies exactly which Commit, Tree, and Blob objects GitHub is missing.
+- The Packfile: To save bandwidth, Git doesn't send files one by one. It compresses all the missing objects into a single file called a Packfile.
+- The Send: Your client runs a process called send-pack, and GitHub runs receive-pack. The Packfile is sent over the wire.
+- Updating the Remote Ref: Once GitHub receives and verifies the data, it moves its own branch pointer (refs/heads/main) to match your new commit hash.
