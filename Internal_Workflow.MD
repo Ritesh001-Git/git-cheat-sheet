@@ -12,7 +12,7 @@ Every action in Git moves data between three distinct areas. Understanding the "
 - The Index (Staging Area): A single binary file at `.git/index`. It is a "technical draft" of your next commit.
 - The Object Database (The Repository): The permanent, compressed storage in `.git/objects`.
 
- ##2. The Step-by-Step Internal Lifecycle
+ ## 2. The Step-by-Step Internal Lifecycle
 
 ### Stage A: Content Hashing (The "Identity" Phase)
 When data moves from your Working Directory to the Index (e.g., via git add), Git doesn't just copy the file.
