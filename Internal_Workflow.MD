@@ -57,8 +57,8 @@ When you run git commit -m "Initial", Git solidifies the state of the Index into
 - Tree Creation: Git creates a Tree object. This is essentially a "directory listing." It points to the Blobs (files) and other Trees (subfolders) that make up your project at that exact moment.
 - Commit Object: Git creates a Commit object. This tiny text file contains:
 
-- - The hash of the Tree (the snapshot).
-- - The hash of the Parent Commit (the previous state).
-- - Metadata: Author, timestamp, and your message.
+ - The hash of the Tree (the snapshot).
+ - The hash of the Parent Commit (the previous state).
+ - Metadata: Author, timestamp, and your message.
 
 - Moving the Pointer: Finally, Git updates the Branch Pointer (e.g., refs/heads/main) to point to the hash of this new Commit object.
